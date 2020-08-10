@@ -98,6 +98,12 @@ img {
     margin: 80px 0 25px;
 }
 
+@media (max-width: 667px) {
+    .header h1 {
+        font-size: 13vw;
+    }
+}
+
 .header h1 span {
     font-weight: 700;
 }
@@ -129,8 +135,8 @@ img {
 .imgHeader img {
     z-index: 1;
     position: relative;
-    /*height: 350px;*/
-    height: 500px;
+    max-width: 400px;
+    height: auto;
 }
 
 /**********************ABOUT ME STYLES********************************/
@@ -147,6 +153,12 @@ img {
     font-size: 64px;
     font-weight: 300;
     margin: 80px 0 25px;
+}
+
+@media (max-width: 667px) {
+    .aboutSection h1 {
+        font-size: 13vw;
+    }
 }
 
 .aboutSection h1 span, .aboutSection h2 span {
@@ -186,7 +198,7 @@ img {
 .imgAbout img {
     z-index: 1;
     position: relative;
-    /*height: 350px;*/
+    max-width: 400px;
 }
 
 .aboutSection h2 {
@@ -224,6 +236,12 @@ img {
     font-size: 64px;
     font-weight: 300;
     margin: 80px 0 25px;
+}
+
+@media (max-width: 667px) {
+    .portfolio h1 {
+        font-size: 13vw;
+    }
 }
 
 .portfolio h1 span {
