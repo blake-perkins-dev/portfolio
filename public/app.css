@@ -135,7 +135,7 @@ img {
 .imgHeader img {
     z-index: 1;
     position: relative;
-    max-width: 400px;
+    width: 400px;
     height: auto;
 }
 
@@ -198,7 +198,7 @@ img {
 .imgAbout img {
     z-index: 1;
     position: relative;
-    max-width: 400px;
+    width: 400px;
 }
 
 .aboutSection h2 {
