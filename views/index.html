@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blake Perkins Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css" type="text/css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mobile-bg-white position-fixed w-100">
       <a class="navbar-brand" href="/">blake<span>perkins</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
@@ -38,10 +39,10 @@
 
     <section class="container-fluid header py-5" id="home">
         <h1>blake<span>perkins</span></h1>
-        <h2>a web developer</h2>
+        <h2>web developer</h2>
         <p class="imgHeader">
-          <span class="imgHeaderBG"></span>
-          <img src="https://images.pexels.com/photos/3687957/pexels-photo-3687957.jpeg?auto=compress&cs=tinysrgb&h=350"/>
+          <!--<span class="imgHeaderBG"></span>-->
+          <img src="/Blake.jpg" alt="Blake Perkins" />
         </p>
     </section>
     
@@ -50,15 +51,18 @@
         <div class="row">
           <div class="col-md-6">
             <p class="imgAbout">
-              <span class="imgAboutBG"></span>
-              <img src="https://images.pexels.com/photos/3687957/pexels-photo-3687957.jpeg?auto=compress&cs=tinysrgb&h=350"/>
+              <!--<span class="imgAboutBG"></span>-->
+              <img src="/Blake-Pokemon.jpg"/>
             </p>
           </div>
           <div class="col-md-6">
             <h2>my<span>passion</span></h2>
-            <p>I love <strong>web development</strong>! I built my first Pokemon website when I was just 7 years old. Web development remained only a hobby. In <strong>2013</strong>, I was given the opportunity
-            to try web development as a career with a junior develop. I've been doing this every since and have moved to a <strong>lead developer</strong> role! I've primarily developed in <strong>Wordpress</strong>,
-            but I'm always looking to branch out and have recently begun working with <strong>React</strong>!</p>
+            <p>I grew up around computers. You could even say it’s in my genes. My grandpa worked on computers on the railroad and my dad has been the system admin at our local hospital for about 20 years.
+            When I was 8 years old I built my first website all about Pokémon. Just another stereotypical geeky 90s kid.</p>
+            <p>Building sites was just a hobby until <strong>2014</strong> when I was hired on as a junior developer for an ad agency. I quickly moved on to <strong>lead developer</strong> and
+            have been with the company ever since. For the past <strong>6 years</strong> I primarily developed for <strong>Wordpress</strong> but I’m always looking to branch out and have recently
+            been working with <strong>React</strong>.</p>
+            
             <h2>preferred<span>languages</span></h2>
             <ul>
               <li>HTML5</li>
@@ -66,6 +70,7 @@
               <li>JavaScript</li>
               <li>PHP</li>
             </ul>
+            
             <h2>favorite<span>tech</span></h2>
             <ul>
               <li>React</li>
@@ -84,7 +89,7 @@
         <div class="row">
           <div class="col-lg-6 mt-5">
             <p class="imgPortfolio">
-              <span class="imgPortfolioBG"></span>
+              <!--<span class="imgPortfolioBG"></span>-->
               <a href="https://glacial-beach-36483.herokuapp.com/" target="_blank"><img src="/yelpcamp.jpg"/></a>
             </p>
           </div>
@@ -117,24 +122,23 @@
         <div class="row">
           <div class="col-lg-6 mt-5">
             <p class="imgPortfolio">
-              <span class="imgPortfolioBG"></span>
+              <!--<span class="imgPortfolioBG"></span>-->
               <a href="https://joebrown.law/" target="_blank"><img src="/joeBrown.jpg"/></a>
             </p>
           </div>
           <div class="col-lg-6 mt-5">
             <h3 class="text-center text-lg-left mt-5">Joe Brown Attorney</h3>
             <p class="text-center text-lg-left">
-              This site was built as class project. Although not for an actual client, this allow for many features that would be required for a true production site.
+              Launched in July 2020, this is a simple website to help a returning lawyer. The site is very modern and is heavily focused on dark grays and blues.
             </p>
             <p class="text-center text-lg-left">
-              It allows for:
+              It's built with:
             </p>
             <ul>
-              <li>User Signup using PassportJS and stored in MongoDB</li>
-              <li>Assignment of admin roles</li>
-              <li>Adding/removing campsites by users only</li>
-              <li>Adding/removing comments by users only</li>
-              <li>Public user profiles</li>
+              <li>Wordpress</li>
+              <li>Community plugins including: Advanced Custom Fields, Gravity Forms, and GDPR Compliance</li>
+              <li>Utilizes Custom Post Types to allow client to easily make content edits</li>
+              <li>Google Maps integration</li>
               <li>Bootstrap layout</li>
             </ul>
           </div>
@@ -149,24 +153,23 @@
         <div class="row">
           <div class="col-lg-6 mt-5">
             <p class="imgPortfolio">
-              <span class="imgPortfolioBG"></span>
+              <!--<span class="imgPortfolioBG"></span>-->
               <a href="http://www.stringtheoryschools.org/" target="_blank"><img src="/stringTheorySchools.jpg"/></a>
             </p>
           </div>
           <div class="col-lg-6 mt-5">
             <h3 class="mt-5">String Theory Schools</h3>
             <p class="text-center text-lg-left">
-              This site was built as class project. Although not for an actual client, this allow for many features that would be required for a true production site.
+              This site is much more elaborate. It required many users with restricted access to only edit certain parts of the site. It's built with a grid design and has many parallaxing images.
             </p>
             <p class="text-center text-lg-left">
               It allows for:
             </p>
             <ul>
-              <li>User Signup using PassportJS and stored in MongoDB</li>
-              <li>Assignment of admin roles</li>
-              <li>Adding/removing campsites by users only</li>
-              <li>Adding/removing comments by users only</li>
-              <li>Public user profiles</li>
+              <li>Wordpress</li>
+              <li>Community plugins including: Advanced Custom Fields, Gravity Forms, PublishPress Permissions, and Events Calendar</li>
+              <li>Utilizes Custom Post Types to allow client to easily make content edits</li>
+              <li>Google Maps integration</li>
               <li>Bootstrap layout</li>
             </ul>
           </div>
@@ -185,8 +188,8 @@
         <div class="row">
           <div class="col-md-6">
             <p class="imgAbout">
-              <span class="imgAboutBG"></span>
-              <img src="https://images.pexels.com/photos/3687957/pexels-photo-3687957.jpeg?auto=compress&cs=tinysrgb&h=350"/>
+              <!--<span class="imgAboutBG"></span>-->
+              <img src="/ContactForm.jpg"/>
             </p>
           </div>
           <div class="col-md-6">
